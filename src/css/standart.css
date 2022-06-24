@@ -1,0 +1,80 @@
+/* ================== standart  ================ */
+html {
+  box-sizing: border-box;
+  position: relative;
+  overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #18171a;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+input,
+textarea,
+button {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1200px;
+  min-height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+  background-color: bisque;
+}
+
+#root {
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-image: url(../../public/img/skelet.svg);
+  background-size:auto;
+  background-repeat: no-repeat;
+  background-position: 20px 120px;
+  background-color: #444247;
+}
+
+/* ============================================= */

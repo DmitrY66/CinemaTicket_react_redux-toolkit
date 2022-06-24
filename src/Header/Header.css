@@ -1,0 +1,10 @@
+.header__title {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #d2ddd5;
+  text-align: center;
+  padding: 80px 40px 30px;
+  background-color: transparent;
+}

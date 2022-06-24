@@ -1,0 +1,29 @@
+.boughtPlaces {
+  display: inline-block;
+  width: 404px;
+  margin-top: 10px;
+  border: 1px solid #94948d;
+  background-color: #aaa5af;
+}
+
+.boughtPlaces h2 {
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  background-color: #2be271;
+}
+
+.boughtPlaces__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boughtPlaces__content li {
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 4px;
+  color: #fff;
+}
